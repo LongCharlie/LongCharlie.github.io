@@ -18,3 +18,4 @@ $$Loss = L_{data} + L_{PDE}$$
 1. Set up the neural network architecture.
 2. Define the partial differential equations.
 3. Train the model using Adam optimizer.
+test again
