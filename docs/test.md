@@ -12,7 +12,7 @@ PINNs integrate physical laws (expressed as PDEs) into the deep learning framewo
 
 ## Loss Function
 The total loss is:
-$$Loss = L_{data} + L_{PDE}$$
+Loss = L_(data) + L_(PDE)
 
 ## Implementation Plan
 1. Set up the neural network architecture.
