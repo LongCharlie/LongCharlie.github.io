@@ -26,7 +26,7 @@ const config: Config = {
   projectName: 'LongCharlie.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages', 
   trailingSlash: false,
-  
+
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -45,8 +45,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -77,7 +77,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: "Charlie's DevLog",
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -87,11 +87,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Notes',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/LongCharlie/LongCharlie.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -105,7 +105,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/test',
             },
           ],
         },
